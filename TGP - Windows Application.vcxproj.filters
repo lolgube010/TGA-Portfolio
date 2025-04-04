@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{29f5e388-3f8c-4168-9dd9-620ec9570884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HLSL">
+      <UniqueIdentifier>{86f815b6-8791-48e6-8867-51d775c269da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GraphicsEngine">
+      <UniqueIdentifier>{5635e6a6-f122-488d-8292-8c00077e9970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Texture">
+      <UniqueIdentifier>{21ae6b89-71d1-47ee-a70e-0592208d958c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\stb">
+      <UniqueIdentifier>{e1c31f73-8be1-4670-8ff6-ba6854b2b9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{05e53034-ac57-4ac7-8d84-1b4103624746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonUtilities">
+      <UniqueIdentifier>{e2e06643-acbb-4397-bb42-455bbb8b280c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Globals">
+      <UniqueIdentifier>{293d122d-72c0-4bad-a0f9-70476936aa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Globals\Timer">
+      <UniqueIdentifier>{1a9b9235-3cd5-4458-9646-d0e4be28be2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Globals\Input">
+      <UniqueIdentifier>{4109fc7d-0e47-43b4-a1e6-b54c2b60c826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Models">
+      <UniqueIdentifier>{c01f17f1-7043-4cf2-939e-3259950ada50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Models\Mesh">
+      <UniqueIdentifier>{fa861427-3648-40f6-b999-d7360703b83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HLSL\Mesh">
+      <UniqueIdentifier>{2ed17951-33f3-4a1a-afac-2ddf8874ae2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Resource">
+      <UniqueIdentifier>{dcbd0b9f-dcba-4106-a02e-e4c406203ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HLSL\Headers">
+      <UniqueIdentifier>{cbf0c79c-547d-426a-9124-9a33364ffdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HLSL\Terrain">
+      <UniqueIdentifier>{5bbb890d-3327-4ab3-8c6a-387a83ead49c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{a5872878-6567-43a1-92d2-37b1d5bbda83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{f2a4fac4-4ab2-4e20-965d-03beea89893c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\misc">
+      <UniqueIdentifier>{7c6a5fd8-b352-421d-94d6-989ff116884c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\misc\cpp">
+      <UniqueIdentifier>{154d84b5-334a-4af3-a366-f64d9a10eed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\misc\debugger">
+      <UniqueIdentifier>{24c580da-b65d-4745-b401-e5c5447d57d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\misc\fonts">
+      <UniqueIdentifier>{2a32621b-e62a-4827-8c6a-e1982801ae16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\misc\freetype">
+      <UniqueIdentifier>{e5af2d78-a386-47c7-b991-7bd62bacf5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\source">
+      <UniqueIdentifier>{45cc9fb6-8469-4486-a742-57ec4aa6201b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui\backends">
+      <UniqueIdentifier>{339459a7-a93b-4953-907c-564930ad2c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\ddsTextureLoader">
+      <UniqueIdentifier>{a1faa862-5360-4230-9c79-cf1a6402d701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RenderTarget">
+      <UniqueIdentifier>{10d4698b-63af-4c4d-b594-6777efde0ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\HLSL\PBR">
+      <UniqueIdentifier>{cdaf5d79-2ddc-4acc-a3ac-aea8b2c36db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\openFBX">
+      <UniqueIdentifier>{4f298ca0-3ec3-4df1-a208-e1c166ef2783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\openFBX\libdeflate">
+      <UniqueIdentifier>{03ec3cfd-8d90-492e-bcca-dc5a237982b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Models\ModelLoader">
+      <UniqueIdentifier>{d9bbffaa-8106-4f62-8057-49c0a1282527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\uFBX">
+      <UniqueIdentifier>{ddc56e10-a7b7-46f4-a8af-84e73c83364f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\portfolio">
+      <UniqueIdentifier>{1399939d-c612-4745-98f4-d0275b74b33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\buffers">
+      <UniqueIdentifier>{d13b2d66-d954-4b75-b5d1-7c8f4f56788c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\dx11">
+      <UniqueIdentifier>{98da3bfe-3964-4bb1-8821-d68e7ebf2994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TerrainStuff">
+      <UniqueIdentifier>{268f7a5d-c8be-4611-9f18-df223e27ff9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="External\imgui\imgui.cpp">
+      <Filter>external\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_demo.cpp">
+      <Filter>external\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_draw.cpp">
+      <Filter>external\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_tables.cpp">
+      <Filter>external\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_widgets.cpp">
+      <Filter>external\imgui\source</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>external\imgui\misc\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\misc\fonts\binary_to_compressed_c.cpp">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\misc\freetype\imgui_freetype.cpp">
+      <Filter>external\imgui\misc\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>external\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>external\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsEngine.cpp">
+      <Filter>Source\GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source\Models\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Source\Globals\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input.cpp">
+      <Filter>Source\Globals\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ddsTexLoader\DDSTextureLoader11.cpp">
+      <Filter>external\ddsTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="External\openFBX\libdeflate.c">
+      <Filter>external\openFBX\libdeflate</Filter>
+    </ClCompile>
+    <ClCompile Include="External\openFBX\ofbx.cpp">
+      <Filter>external\openFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="External\uFBX\ufbx.c">
+      <Filter>external\uFBX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VoxelGrid.cpp">
+      <Filter>Source\portfolio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DX11Annotation.cpp">
+      <Filter>Source\portfolio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FullscreenPass.cpp">
+      <Filter>Source\portfolio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RayMarcher.cpp">
+      <Filter>Source\portfolio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\imgui\imconfig.h">
+      <Filter>external\imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui.h">
+      <Filter>external\imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_internal.h">
+      <Filter>external\imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_rectpack.h">
+      <Filter>external\imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_textedit.h">
+      <Filter>external\imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_truetype.h">
+      <Filter>external\imgui\source</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>external\imgui\misc\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\misc\freetype\imgui_freetype.h">
+      <Filter>external\imgui\misc\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\backends\imgui_impl_dx11.h">
+      <Filter>external\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\backends\imgui_impl_win32.h">
+      <Filter>external\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsEngine.h">
+      <Filter>Source\GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="External\stb_image.h">
+      <Filter>Source\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Source\Models\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\InputManager.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Matrix.hpp">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Matrix3x3.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Matrix4x4.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Timer.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\UtilityFunctions.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Vector.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Vector2.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Vector3.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\Vector4.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Source\Globals\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GlobalManager.h">
+      <Filter>Source\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>Source\Globals\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\imgui_Wrapper.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Primitive.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Source\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Source\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="External\CommonUtilities\StringManip.h">
+      <Filter>CommonUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RenderTarget.h">
+      <Filter>Source\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ddsTexLoader\DDSTextureLoader11.h">
+      <Filter>external\ddsTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="External\openFBX\libdeflate.h">
+      <Filter>external\openFBX\libdeflate</Filter>
+    </ClInclude>
+    <ClInclude Include="External\openFBX\ofbx.h">
+      <Filter>external\openFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModelLoader.h">
+      <Filter>Source\Models\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="External\uFBX\ufbx.h">
+      <Filter>external\uFBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VoxelGrid.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PortfolioSettings.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MomoMath.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DX11Timer.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DX11Annotation.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gun.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RayMarcher.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Buffers.h">
+      <Filter>Source\buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\uppgift05_helper.h">
+      <Filter>Source\TerrainStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DX11FwdDecl.h">
+      <Filter>Source\dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RayMarcherStructs.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FullscreenPass.h">
+      <Filter>Source\portfolio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="External\imgui\misc\debugger\imgui.natstepfilter">
+      <Filter>external\imgui\misc\debugger</Filter>
+    </None>
+    <None Include="External\imgui\misc\freetype\README.md">
+      <Filter>external\imgui\misc\freetype</Filter>
+    </None>
+    <None Include="Source\HLSL\Common.hlsli">
+      <Filter>Source\HLSL\Headers</Filter>
+    </None>
+    <None Include="Source\HLSL\CommonBuffers.hlsli">
+      <Filter>Source\HLSL\Headers</Filter>
+    </None>
+    <None Include="Source\HLSL\PBRFunctions.hlsli">
+      <Filter>Source\HLSL\PBR</Filter>
+    </None>
+    <None Include="Source\HLSL\PortfolioCommon.hlsli">
+      <Filter>Source\portfolio</Filter>
+    </None>
+    <None Include="Source\HLSL\PostProcessStructs.hlsli">
+      <Filter>Source\portfolio</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="External\imgui\misc\cpp\README.txt">
+      <Filter>external\imgui\misc\cpp</Filter>
+    </Text>
+    <Text Include="External\imgui\misc\debugger\README.txt">
+      <Filter>external\imgui\misc\debugger</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="External\imgui\misc\debugger\imgui.natvis">
+      <Filter>external\imgui\misc\debugger</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="External\imgui\misc\fonts\Cousine-Regular.ttf">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </Font>
+    <Font Include="External\imgui\misc\fonts\DroidSans.ttf">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </Font>
+    <Font Include="External\imgui\misc\fonts\Karla-Regular.ttf">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </Font>
+    <Font Include="External\imgui\misc\fonts\ProggyClean.ttf">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </Font>
+    <Font Include="External\imgui\misc\fonts\ProggyTiny.ttf">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </Font>
+    <Font Include="External\imgui\misc\fonts\Roboto-Medium.ttf">
+      <Filter>external\imgui\misc\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\HLSL\MeshPS.hlsl">
+      <Filter>Source\HLSL\Mesh</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\MeshVS.hlsl">
+      <Filter>Source\HLSL\Mesh</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\TerrainPS.hlsl">
+      <Filter>Source\HLSL\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\TerrainVS.hlsl">
+      <Filter>Source\HLSL\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\VoxelGrid_CS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\VoxelGrid_VS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\VoxelGrid_PS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\MeshVoxelizer_CS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\SmokeRenderer_CS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\VoxelGridClear_CS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\FullscreenEffect_VS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\SampleDepth_PS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\GenerateNoise_CS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\Sharpening_PS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\HLSL\SimpleCopyPS.hlsl">
+      <Filter>Source\portfolio</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Resource.rc">
+      <Filter>Source\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
