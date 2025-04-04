@@ -1,5 +1,7 @@
-## A recreation of Acerola's Realtime Voxel-Based Volumetric Smoke Grenade. 
-### My Portfolio Work and Specialization @ The Game Assembly
+# A recreation of Acerola's Realtime Voxel-Based Volumetric Smoke Grenade in my custom DX11 Renderer. 
+## My Portfolio Work and Specialization @ The Game Assembly
+
+[Smoke_Showcase.webm](https://github.com/user-attachments/assets/54185d4c-1c94-4d1a-8c5e-32f0c2228ee0)
 
 ### [mohammedosman.se](https://mohammedosman.se/) for details.
 
