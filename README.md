@@ -21,7 +21,7 @@ Made in my own custom DX11 C++ Engine.
 If you encounter any issues, please DM me anywhere you can reach me. 
 
 * I'm on Discord and X @lolgube
-* My Electronic Mail is osman0102004 at gmail dot com.
+* My E-Mail is osman0102004 at gmail dot com.
 
 [Link to Acerola's original video](https://www.youtube.com/watch?v=ryB8hT5TMSg)
 
