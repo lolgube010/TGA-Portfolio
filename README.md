@@ -1,6 +1,6 @@
 ## A recreation of Acerola's 'Realtime Voxel-Based Volumetric Smoke Grenade'. 
 ### My Portfolio Work and Specialization @ The Game Assembly.
-Made in my own custom DX11 C++ Engine.
+Made in my own Custom DX11 C++ Engine.
 
 [Smoke_Showcase.webm](https://github.com/user-attachments/assets/54185d4c-1c94-4d1a-8c5e-32f0c2228ee0)
 
@@ -18,7 +18,7 @@ Made in my own custom DX11 C++ Engine.
 | Close         | `ESC`                |
 | Change Smoke Settings      | `ImGui Menu`         |
 
-If you encounter any issues, please DM me anywhere you can reach me. 
+If you encounter any issues or have any questions, please DM me anywhere you can reach me. 
 
 * I'm on Discord and X @lolgube
 * My E-Mail is osman0102004 at gmail dot com.
