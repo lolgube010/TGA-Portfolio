@@ -18,7 +18,8 @@ Made in my own Custom DX11 C++ Engine.
 | Close         | `ESC`                |
 | Change Smoke Settings      | `ImGui Menu`         |
 
-If you encounter any issues or have any questions, please DM me anywhere you can reach me. 
+If you encounter any performance issues I recomend setting the Render Size of the smoke to Quarter through the ImGui Menu.
+If you encounter any other issues or have any questions, please DM me anywhere you can reach me. 
 
 * I'm on Discord and X @lolgube
 * My E-Mail is osman0102004 at gmail dot com.
